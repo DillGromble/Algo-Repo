@@ -36,6 +36,3 @@ def recursiveGCD (a, b):
   if not b: return a
   return recursiveGCD(b, a % b)
 
-
-
-
